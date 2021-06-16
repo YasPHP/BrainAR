@@ -25,12 +25,16 @@ def loadAugImages(path):
     imgAugDict = {}
 
     for imgAugPath in markersList:
-        key = str(os.path.splitext(imgAugPath)[0])
-        print(key)
+        key = int(os.path.splitext(imgAugPath)[0])
+        # key = os.path.splitext(imgAugPath)[0]
+        # print(key)
+        # print(type(key))
+        # int(key)
+        # print(type(key))
         imgAug = cv2.imread(f'{path}/{imgAugPath}')
         imgAugDict[key] = imgAug
 
-    # print(imgAugDict)
+    print(imgAugDict)
     return imgAugDict
 
 
@@ -67,9 +71,6 @@ def findArucoMarkers(img, markerSize=6, totalMarkers=250, draw=True):
         aruco.drawDetectedMarkers(img, bboxs)
 
     return [bboxs, ids]
-
-
-# CONTINUE: AT 17:57 (https://www.youtube.com/watch?v=v5a7pKSOJd8)
 
 
 def augmentAruco(bbox, id, img, imgAug, drawId=True):
@@ -130,7 +131,8 @@ def main():
             if len(arucoFound[0]) != 0:
                 # loops through both at the same time
                 for bbox, id in zip(arucoFound[0], arucoFound[1]):
-                    img = augmentAruco(bbox, id, img, imgAug)
+                    if int(id) in imgAugDict.keys():
+                        img = augmentAruco(bbox, id, img, imgAugDict[int(id)])
 
             # a frame was successfully read
             # show camera feed in a window
