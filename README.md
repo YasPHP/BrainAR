@@ -17,4 +17,5 @@ pip install -U -r requirements.txt
 python ArucoModule.py
 ```
 # ArUco Markers
-Print out these [ArUco Markers](https://github.com/YasPHP/BrainAR/tree/main/ArucoMarkers) for detection 
+- Print out these [ArUco Markers](https://github.com/YasPHP/BrainAR/tree/main/ArucoMarkers) for detection 
+- Generate your own ArUco markers [here](https://chev.me/arucogen/)
