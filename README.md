@@ -13,3 +13,5 @@ pip install -U -r requirements.txt
 ```
 python ArucoModule.py
 ```
+# ArUco Markers
+Print out these [ArUco Markers](https://github.com/YasPHP/BrainAR/tree/main/ArucoMarkers) for detection 
