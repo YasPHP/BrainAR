@@ -19,3 +19,8 @@ python ArucoModule.py
 # ArUco Markers
 - Print out these [ArUco Markers](https://github.com/YasPHP/BrainAR/tree/main/ArucoMarkers) for detection 
 - Generate your own ArUco markers [here](https://chev.me/arucogen/)
+
+# Sources
+- [Brain Atlas Map](https://atlas.brain-map.org/)
+- [Augmented Reality with OpenCV](https://www.youtube.com/watch?v=v5a7pKSOJd8)
+- [OpenCV ArUco Marker Documentation](https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html)
