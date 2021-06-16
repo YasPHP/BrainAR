@@ -1,7 +1,7 @@
 # Brain Augmented Reality (AR)
 A neuroanatomy-based augmented reality experience powered by computer vision.
 
-![AR demo](https://cdn.discordapp.com/attachments/805865703310753822/854576761034768384/pic.gif)
+![AR demo](https://discord.com/channels/792469912295440434/805865703310753822/854578012217540609)
 
 
 # Get Started
