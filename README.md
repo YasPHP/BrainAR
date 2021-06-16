@@ -1,5 +1,5 @@
 # Brain Augmented Reality (AR)
-A neuroanatomy-based augmented reality experience powered by computer vision.
+A neuroanatomy-based augmented reality experience powered by computer vision that features 3D visuals of the Atlas Brain Map slices.
 
 ![AR demo](https://github.com/YasPHP/BrainAR/blob/main/ExtraImages/AR_demo.gif)
 
